@@ -1,9 +1,9 @@
-const app = require('./src/app')
-const connectToDataBase = require('./src/config/database')
+const app = require('./app')
+const connectToDataBase = require('./config/database')
 
 const dotenv = require('dotenv')
 
-dotenv.config({path: 'src/config/config.env'})
+dotenv.config({path: 'config/config.env'})
 
 connectToDataBase()
 
